@@ -12,6 +12,11 @@
    &kp A &kp Z &kp X &kp C &kp V &kp B    &kp N &kp M  &kp A &kp A &kp A &kp A
                &kp A &kp A &kp A &kp A    &kp A &kp A &kp A &kp A
                         >;
+
+                        sensor-bindings = <
+                            &inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN
+                            &inc_dec_kp C_BRI_UP C_BRI_DN
+                        >;
         };
     };
  };
