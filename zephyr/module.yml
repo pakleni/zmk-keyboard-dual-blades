@@ -1,3 +1,5 @@
+name: zmk-keyboard-dual_blades
+
 build:
   settings:
     board_root: .

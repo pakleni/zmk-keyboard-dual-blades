@@ -1,0 +1,14 @@
+file_format: "1"
+id: dual_blades
+name: Dual Blades
+type: shield
+url: https://github.com/pakleni/dual-blades-keyboard
+requires: [pro_micro]
+exposes: [nice_view_header]
+features:
+  - keys
+  - display
+  - encoder
+siblings:
+  - dual_blades_left
+  - dual_blades_right

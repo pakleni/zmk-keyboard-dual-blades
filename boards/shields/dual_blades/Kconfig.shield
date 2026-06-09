@@ -1,0 +1,5 @@
+config SHIELD_DUAL_BLADES_LEFT
+    def_bool $(shields_list_contains,dual_blades_left)
+
+config SHIELD_DUAL_BLADES_RIGHT
+    def_bool $(shields_list_contains,dual_blades_right)

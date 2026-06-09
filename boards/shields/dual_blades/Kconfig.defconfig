@@ -1,0 +1,17 @@
+if SHIELD_DUAL_BLADES_LEFT
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "Dual Blades"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_DUAL_BLADES_LEFT || SHIELD_DUAL_BLADES_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
