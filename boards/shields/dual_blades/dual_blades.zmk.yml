@@ -4,7 +4,7 @@ name: Dual Blades
 type: shield
 url: https://github.com/pakleni/dual-blades-keyboard
 requires: [pro_micro]
-exposes: [nice_view_header]
+exposes: [i2c_oled]
 features:
   - keys
   - display

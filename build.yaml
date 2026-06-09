@@ -1,2 +1,5 @@
-board: [ "nice_nano" ]
-shield: [ "dual_blades_left", "dual_blades_right" ]
+include:
+  - board: nice_nano_v2
+    shield: dual_blades_left nice_view_adapter nice_view
+  - board: nice_nano_v2
+    shield: dual_blades_right nice_view_adapter nice_view
