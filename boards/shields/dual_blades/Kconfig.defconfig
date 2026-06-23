@@ -14,4 +14,10 @@ if SHIELD_DUAL_BLADES_LEFT || SHIELD_DUAL_BLADES_RIGHT
 config ZMK_SPLIT
     default y
 
+config EC11
+    default y
+
+config EC11_TRIGGER_GLOBAL_THREAD
+    default y
+
 endif
